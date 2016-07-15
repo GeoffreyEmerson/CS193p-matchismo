@@ -9,12 +9,12 @@
 #import "CardMatchingGame.h"
 
 @interface CardMatchingGame()
-@property (nonatomic, readwrite) NSInteger score;
+@property (nonatomic, readwrite) long score;
 @property (nonatomic, strong) NSMutableArray *cards; // of Card; the game deck
 @property (nonatomic, readwrite) BOOL gameStarted;
 @property (nonatomic, readwrite) BOOL lastMatchCheck;
 @property (nonatomic, readwrite) BOOL lastMatchSuccess;
-@property (nonatomic, readwrite) NSInteger lastScore;
+@property (nonatomic, readwrite) long lastScore;
 @property (nonatomic, readwrite) NSMutableArray *chosenCardArray;
 @end
 

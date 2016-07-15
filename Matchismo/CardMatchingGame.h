@@ -19,11 +19,11 @@
 - (void)chooseCardAtIndex:(NSUInteger)index;
 - (PlayingCard *)cardAtIndex:(NSUInteger)index;
 
-@property (nonatomic, readonly) NSInteger score;
+@property (nonatomic, readonly) long score;
 @property (nonatomic) BOOL threeCardMode;
 @property (nonatomic, readonly) BOOL gameStarted;
 @property (nonatomic, readonly) BOOL lastMatchCheck;
 @property (nonatomic, readonly) BOOL lastMatchSuccess;
-@property (nonatomic, readonly) NSInteger lastScore;
+@property (nonatomic, readonly) long lastScore;
 @property (nonatomic, readonly) NSMutableArray *chosenCardArray;
 @end
